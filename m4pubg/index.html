@@ -1,0 +1,22 @@
+<DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width;initial-scale=1.0">
+<meta name="theme-color" content="#003300">
+<link rel="stylesheet" href="main.css">
+<script>
+
+function play(){
+ var ping = new Audio("src_audio.mp3");
+ ping.play();
+setTimeout(play,2425);
+ }
+  function load(){
+ window.location="index.html";
+  }
+  </script>
+</head>
+<body>
+<img src="src_img.png"  onmouseover="play()" onmouseout="load()" >
+</body>
+</html>
